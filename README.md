@@ -4,8 +4,8 @@
 Some of them are marked “normal” (0) and some as “anomaly” (1).
 It scales (normalizes) the numbers so that models can learn properly.
 
-- Then it splits data into training and testing parts.
-  Random Forest → learns patterns of “normal” vs. “anomaly” from labeled data.
+- Then it splits the data into training and testing parts.
+  Random Forest → learns patterns of “normal” vs. “anomaly” from labelled data.
   Isolation Forest → looks for “weird” data points without needing labels.
   
 - The code picks random samples (pretend they’re live traffic).
